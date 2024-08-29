@@ -4,4 +4,4 @@ import Container from "./container/Container";
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 
-export default { Header, Footer, Container, Logo, LogoutBtn };
+export { Header, Footer, Container, Logo, LogoutBtn };
