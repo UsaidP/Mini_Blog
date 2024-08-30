@@ -5,7 +5,6 @@ import { Button, Input, Logo } from "../index";
 import { login } from "../../store/authSlice";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
-import { data } from "autoprefixer";
 
 function Register() {
   const navigate = useNavigate();
