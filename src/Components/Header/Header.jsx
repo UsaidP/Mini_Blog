@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const authStatus = useSelector((state) => state.auth.status);
+
   const navigate = useNavigate();
 
   const navItems = [
@@ -28,9 +29,9 @@ const Header = () => {
       active: authStatus,
     },
     {
-      name: "Home",
-      slug: "/",
-      active: true,
+      name: "Add-Post",
+      slug: "/add-post",
+      active: authStatus,
     },
   ];
   return (
